@@ -80,34 +80,41 @@ FROM (
 ---
 ## 📖 文档与授权
 ### SQLazy 语法规范(Prompts)
-- 语法总览：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-spec.md
-- 基础公共规则：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-common.md
+- 语法总览：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/识别功能（语法总览）.md
+- 基础公共规则：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/功能_公共.md
 - 数据读取类：
-  - 文件读取：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-file.md
-  - SQL执行：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-sql.md
+  - 文件读取：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/文件.md
+  - SQL执行：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/SQL.md
 - 表结构操作类：
-  - 表生成：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-table-create.md
-  - 列调整：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-column-adjust.md
-  - 主键设置：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-primary-key.md
+  - 常数表：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/常数表.md
+  - 序列表：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/序列表.md
+  - 导出表：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/导出表.md
+  - 取出列：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/取出列.md
+  - 列调整：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/调整列.md
+  - 主键设置：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/主键.md
 - 数据过滤与排序类：
-  - 筛选过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-filter.md
-  - 排序：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-sort.md
-  - 排名：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-rank.md
-  - 去重：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-deduplicate.md
+  - 筛选过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/筛选.md
+  - 排序：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/排序.md
+  - 排名：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/排名.md
+  - 去重：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/去重.md
 - 数据计算类：
-  - 基础计算：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-calculate.md
-  - 计算列：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-calculate-column.md
-  - 分段分组：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-segment.md
-  - 聚合汇总：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-aggregation.md
+  - 基础计算：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/计算.md
+  - 计算列：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/计算列.md
+  - 分段分组：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/分段.md
+  - 聚合汇总：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/汇总.md
 - 表关联与集合操作类：
-  - 表拼接关联：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-join.md
-  - 匹配过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-match.md
-  - 集合运算：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-set.md
-  - 数据对齐：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-align.md
-  - 行扩展：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-expand.md
-  - 行列旋转：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-pivot.md
+  - 表拼接关联：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/拼接.md
+  - 匹配过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/匹配.md
+  - 集合运算：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/集合.md
+  - 数据对齐：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/对齐.md
+  - 行扩展：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/扩展.md
+  - 行列旋转：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/旋转.md
+  - 列表生成：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/列表.md
+
 ### 许可说明
+
 本仓库不包含源码，SaaS及IDE功能为非开源产品，可在保持设备联网的前提下免费使用（含商用场景）；本仓库内的所有示例代码可自由修改、分发、商用，无额外限制。
+
 ---
 ## 🛣️ RoadMap
 ### ✅ 已实现
