@@ -67,45 +67,45 @@ FROM (
 ---
 ## 📚 示例库
 所有示例均为真实业务场景实现，可直接点击链接在线体验：
-- 排名与排序：https://github.com/tosssman/sqlazy/tree/main/examples/01-ranking-sorting
-- 分组与汇总：https://github.com/tosssman/sqlazy/tree/main/examples/02-grouping-aggregation
-- 行列转换：https://github.com/tosssman/sqlazy/tree/main/examples/03-row-column-transform
-- 表间关联：https://github.com/tosssman/sqlazy/tree/main/examples/04-table-join-comparison
-- 有序计算：https://github.com/tosssman/sqlazy/tree/main/examples/05-ordered-calculation
-- 筛选与定位：https://github.com/tosssman/sqlazy/tree/main/examples/06-filter-location
-- 字符串与日期：https://github.com/tosssman/sqlazy/tree/main/examples/07-string-datetime
-- 数据补全与对齐：https://github.com/tosssman/sqlazy/tree/main/examples/08-data-completion-alignment
-- 嵌套查询替代：https://github.com/tosssman/sqlazy/tree/main/examples/09-subquery-window-function
-- 复杂报表查询：https://github.com/tosssman/sqlazy/tree/main/examples/10-complex-report-query
+- 排名与排序：https://github.com/tosssman/sqlazy_test/tree/main/examples/01-ranking-sorting
+- 分组与汇总：https://github.com/tosssman/sqlazy_test/tree/main/examples/02-grouping-aggregation
+- 行列转换：https://github.com/tosssman/sqlazy_test/tree/main/examples/03-row-column-transform
+- 表间关联：https://github.com/tosssman/sqlazy_test/tree/main/examples/04-table-join-comparison
+- 有序计算：https://github.com/tosssman/sqlazy_test/tree/main/examples/05-ordered-calculation
+- 筛选与定位：https://github.com/tosssman/sqlazy_test/tree/main/examples/06-filter-location
+- 字符串与日期：https://github.com/tosssman/sqlazy_test/tree/main/examples/07-string-datetime
+- 数据补全与对齐：https://github.com/tosssman/sqlazy_test/tree/main/examples/08-data-completion-alignment
+- 嵌套查询替代：https://github.com/tosssman/sqlazy_test/tree/main/examples/09-subquery-window-function
+- 复杂报表查询：https://github.com/tosssman/sqlazy_test/tree/main/examples/10-complex-report-query
 ---
 ## 📖 文档与授权
 ### SQLazy 语法规范(Prompts)
-- 语法总览：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-spec.md
-- 基础公共规则：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-common.md
+- 语法总览：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-spec.md
+- 基础公共规则：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-common.md
 - 数据读取类：
-  - 文件读取：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-file.md
-  - SQL执行：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-sql.md
+  - 文件读取：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-file.md
+  - SQL执行：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-sql.md
 - 表结构操作类：
-  - 表生成：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-table-create.md
-  - 列调整：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-column-adjust.md
-  - 主键设置：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-primary-key.md
+  - 表生成：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-table-create.md
+  - 列调整：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-column-adjust.md
+  - 主键设置：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-primary-key.md
 - 数据过滤与排序类：
-  - 筛选过滤：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-filter.md
-  - 排序：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-sort.md
-  - 排名：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-rank.md
-  - 去重：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-deduplicate.md
+  - 筛选过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-filter.md
+  - 排序：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-sort.md
+  - 排名：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-rank.md
+  - 去重：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-deduplicate.md
 - 数据计算类：
-  - 基础计算：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-calculate.md
-  - 计算列：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-calculate-column.md
-  - 分段分组：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-segment.md
-  - 聚合汇总：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-aggregation.md
+  - 基础计算：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-calculate.md
+  - 计算列：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-calculate-column.md
+  - 分段分组：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-segment.md
+  - 聚合汇总：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-aggregation.md
 - 表关联与集合操作类：
-  - 表拼接关联：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-join.md
-  - 匹配过滤：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-match.md
-  - 集合运算：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-set.md
-  - 数据对齐：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-align.md
-  - 行扩展：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-expand.md
-  - 行列旋转：https://github.com/tosssman/sqlazy/blob/main/docs/zh-CN/syntax-pivot.md
+  - 表拼接关联：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-join.md
+  - 匹配过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-match.md
+  - 集合运算：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-set.md
+  - 数据对齐：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-align.md
+  - 行扩展：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-expand.md
+  - 行列旋转：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/syntax-pivot.md
 ### 许可说明
 本仓库不包含源码，SaaS及IDE功能为非开源产品，可在保持设备联网的前提下免费使用（含商用场景）；本仓库内的所有示例代码可自由修改、分发、商用，无额外限制。
 ---
@@ -121,7 +121,7 @@ FROM (
 - 极低版本数据库兼容（如MySQL 5.5以下）
 ---
 ## 🤝 社区与反馈
-- Issue：https://github.com/tosssman/sqlazy/issues
+- Issue：https://github.com/tosssman/sqlazy_test/issues
 - Discussion（讨论区）：https://c.esproc.com/
 - 商业授权咨询：contact@scudata.com
 ---
