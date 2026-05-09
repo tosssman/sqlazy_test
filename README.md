@@ -90,7 +90,6 @@ FROM (
   - 序列表：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/序列表.md
   - 导出表：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/导出表.md
   - 取出列：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/取出列.md
-  - 列调整：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/调整列.md
   - 主键设置：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/主键.md
 - 数据过滤与排序类：
   - 筛选过滤：https://github.com/tosssman/sqlazy_test/blob/main/docs/zh-CN/筛选.md
@@ -124,6 +123,7 @@ FROM (
 ### 🔜 近期规划
 - 新增数据库支持：Snowflake、BigQuery
 - 新增能力：递归查询
+- 新增AI能力：自动将任意自然语言需求拆解为标准SQLazy分步指令
 ### ⚠️ 短期暂不支持
 - 极低版本数据库兼容（如MySQL 5.5以下）
 ---
