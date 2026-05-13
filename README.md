@@ -4,6 +4,8 @@
 
 AI-assisted. Compiler-guaranteed. No black boxes.
 
+MIT License for examples • SQLazy application is proprietary
+
 ---
 
 ## Why SQLazy?
@@ -104,13 +106,6 @@ But **you stay in control** of the logic.
 
 ---
 
-### 💼 Free for Commercial Use
-
-- Free for online use (including commercial teams)  
-- Paid license required for private / on-prem deployment  
-
----
-
 ## Example: Find Longest Rising Streak for a Stock
 
 ### Step 1 — Describe the workflow
@@ -201,7 +196,7 @@ But the SQLazy workflow is easy to read, review, and audit.
 
 ### Try instantly (no signup)
 
-👉 [https://sqlazy.com](https://sqlazy.com)
+🌐 Try the Web App: https://sqlazy.com  
 
 * online playground
 * free usage (limited compute)
@@ -211,7 +206,7 @@ But the SQLazy workflow is easy to read, review, and audit.
 
 ### Download the Desktop IDE
 
-👉 [https://sqlazy.com/download](https://sqlazy.com/download)
+💻 Download Desktop IDE: https://sqlazy.com/download
 
 Best for daily work and large datasets.
 
@@ -234,7 +229,7 @@ Features:
 | Data stays in your environment | ❌ Runs in the cloud                | ✅ Supports private/on-prem deployment (commercial license)               |
 | Interface & language support   | English UI and terminology         | Full English + Chinese UI and terminology                                |
 | Database dialect support       | Same core compiler                 | Same core compiler                                                       |
-| Pricing                        | Free                               | Free for personal & team online use; paid for private/on-prem deployment |
+| Availability | Free | Free for personal & team online use; commercial license for private/on-prem deployment |
 | Version control                | Always up-to-date in the cloud     | Free edition auto-updates; commercial edition supports version locking   |
 
 ---
@@ -378,16 +373,14 @@ Complex summarization patterns that require stateful calculations across rows.
 
 ---
 
-## Licensing
+## License
 
-This repository does not contain the source code.
+This repository contains **documentation and example workflows only**.
 
-SQLazy Web and Desktop IDE are proprietary products.
+The SQLazy application (Web App and Desktop IDE) is proprietary software and is **not included** in this repository.
 
-* Free for online use (including commercial use)
-* Paid license required for private / offline deployment
-
-All examples in this repository are free to use and modify.
+All files inside the `/examples` directory are released under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -399,7 +392,7 @@ All examples in this repository are free to use and modify.
 
 ---
 
-## Built on esProc SPL
+## Acknowledgements
 
-SQLazy is built on top of esProc SPL:
-[https://github.com/SPLWare/esProc](https://github.com/SPLWare/esProc)
+SQLazy is built on top of the esProc SPL engine:  
+https://github.com/SPLWare/esProc
