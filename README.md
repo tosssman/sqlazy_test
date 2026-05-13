@@ -122,10 +122,10 @@ Each row represents a single transformation.
 | Variable | Anchor | Statement |
 |---|---|---|
 | t1 | stock | filter CODE == 100046 |
-| t2 | t1 | sort DT asc |
-| t3 | t2 | segment CL down as NoRisingDays |
-| t4 | t3 | summarize DT count as ContinuousDays group NoRisingDays |
-| result | t4 | summarize ContinuousDays max as max_ContinuousDays |
+| t2 |  | sort DT asc |
+| t3 |  | segment CL down as NoRisingDays |
+| t4 |  | summarize DT count as ContinuousDays group NoRisingDays |
+| |  | summarize ContinuousDays max as max_ContinuousDays |
 
 This workflow is easy to read and easy to review.  
 Each step does only **one simple thing**.
