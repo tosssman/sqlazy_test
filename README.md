@@ -240,9 +240,10 @@ Features:
 
 ## Real-World Example Library
 
-We collected 15+ of the most difficult SQL problems from StackOverflow and solved them step-by-step with SQLazy. No more nested window functions or unreadable CTEs.
+We collected real-world SQL problems from StackOverflow and solved them step-by-step with SQLazy.
+These examples showcase queries that typically require complex window functions, nested subqueries, or recursive logic.
 
-Explore examples by real analytics scenarios:
+Explore the examples by real analytics scenarios:
 
 ---
 
