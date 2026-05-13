@@ -224,17 +224,18 @@ Features:
 
 ---
 
-## Web App vs Desktop IDE
+## 🖥️ Web App vs Desktop IDE
 
-| Feature                | Web App          | Desktop IDE                   |
-| ---------------------- | ---------------- | ----------------------------- |
-| Natural language → SQL | ✅                | ✅                             |
-| AI assistance          | ✅ (usage limits) | ✅ (bring your own key)        |
-| Step-by-step debugging | ✅ (limited data) | ✅ (large datasets)            |
-| Performance            | Shared           | Local                         |
-| Data stays local       | ❌                | ✅ (on-prem license available) |
-| SPL code generation    | ❌                | ✅                             |
-| Interface language     | English          | English + Chinese             |
+| Feature                        | Web App (sqlazy.com)               | Desktop IDE                                                              |
+| ------------------------------ | ---------------------------------- | ------------------------------------------------------------------------ |
+| Natural language → SQL         | ✅ Full SQL generation capabilities | ✅ Full SQL generation + native SPL generation                            |
+| AI assistance & planning       | ✅ Usage-limited (hosted LLM)       | ✅ Bring your own LLM key, no usage limits, customizable prompts          |
+| Step-by-step debugging         | ✅ Limited dataset size             | ✅ Powered by esProc engine, supports large datasets                      |
+| Data stays in your environment | ❌ Runs in the cloud                | ✅ Supports private/on-prem deployment (commercial license)               |
+| Interface & language support   | English UI and terminology         | Full English + Chinese UI and terminology                                |
+| Database dialect support       | Same core compiler                 | Same core compiler                                                       |
+| Pricing                        | Free                               | Free for personal & team online use; paid for private/on-prem deployment |
+| Version control                | Always up-to-date in the cloud     | Free edition auto-updates; commercial edition supports version locking   |
 
 ---
 
