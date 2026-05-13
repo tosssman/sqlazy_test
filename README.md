@@ -111,7 +111,7 @@ But **you stay in control** of the logic.
 
 ---
 
-## Example: Longest Rising Streak of a Stock
+## Example: Find Longest Rising Streak for a Stock
 
 ### Step 1 — Describe the workflow
 
@@ -240,8 +240,8 @@ Features:
 
 ## Real-World Example Library
 
-We collected real-world SQL problems from StackOverflow and solved them step-by-step with SQLazy.
-These examples showcase queries that typically require complex window functions, nested subqueries, or recursive logic.
+We collected real SQL problems from StackOverflow and solved them step-by-step with SQLazy.
+These examples show how complex analytical queries can be expressed as clear, auditable workflows.
 
 Explore the examples by real analytics scenarios:
 
