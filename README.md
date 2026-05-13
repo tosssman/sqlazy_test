@@ -240,10 +240,118 @@ Features:
 
 ## Real-World Example Library
 
-We collected real SQL problems from StackOverflow and solved them with SQLazy.
+We collected 15+ of the most difficult SQL problems from StackOverflow and solved them step-by-step with SQLazy. No more nested window functions or unreadable CTEs.
 
-Browse examples:
-[https://github.com/tosssman/sqlazy_test/tree/main/examples](https://github.com/tosssman/sqlazy_test/tree/main/examples)
+Explore examples by real analytics scenarios:
+
+---
+
+### 📈 Consecutive Trends & Streak Analysis
+Detect continuous patterns in time-series data – one of the hardest problems to solve with standard SQL.
+
+- Find the longest consecutive rising streak for a single stock
+- Get the exact start and end dates of the longest rising period
+- Filter all stocks with rising streaks longer than N days
+- Extract every rising streak period that exceeds 3 days
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/consecutive-trends
+
+---
+
+### ⏱ Event Sequencing & Sessionization
+Split event streams into logical sessions and generate sequence numbers based on time gaps or state changes.
+
+- Number events and reset counters when time gaps exceed 1 hour
+- Create conditional running totals that reset when a condition is met
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/event-sequencing
+
+---
+
+### 🔀 Conditional Grouping Logic
+Dynamic grouping based on data values and running status – eliminates complex `SUM(CASE WHEN ...) OVER (...)` patterns.
+
+- Calculate totals differently for single-customer vs multi-customer groups
+- Group records automatically when a running status flag changes
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/conditional-grouping
+
+---
+
+### 🪟 Time Window Analytics
+Rolling window calculations and interval aggregations with automatic missing value backfilling.
+
+- Build minute-by-minute price bars (OHLC) with gap filling
+- Calculate 5-minute rolling totals over time-series data
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/time-window-analytics
+
+---
+
+### 🧹 Data Cleaning & Normalization
+Prepare messy datasets for reporting and analytics with simple, readable steps.
+
+- Hide repeated values in reports (replace duplicates with NULL)
+- Generate status flags based on recent consecutive row values
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/data-cleaning
+
+---
+
+### 🧩 Group Enhancement
+Add, modify or inject rows into grouped results without complex union operations.
+
+- Insert a header row before each group of records
+- Split total amounts across multiple rows while preserving the grand total
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/group-enhancement
+
+---
+
+### 📊 Dynamic Reporting Transformations
+Reshape data for BI tools and reports – no more dynamic SQL or stored procedures.
+
+- Turn unique row values into dynamic columns (automatic pivot tables)
+- Split invoice totals evenly across line items while maintaining sum integrity
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/dynamic-reporting
+
+---
+
+### 💰 Financial & Market Analysis
+Real-world trading and finance SQL problems that analysts deal with daily.
+
+- Calculate the longest consecutive rising streak for any stock
+- Identify all stocks that have risen for more than 3 consecutive days
+- Generate OHLC price bars from raw tick data
+- Extract all rising streak periods for market analysis
+- Compute rolling averages and totals for technical indicators
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/financial-analysis
+
+---
+
+### 🧑‍💻 Behavioral & User Analytics
+Sessionization and event tracking patterns for user behavior analysis.
+
+- Split user activity into sessions based on inactivity timeouts
+- Add summary header rows before each user's event group
+- Backfill missing time intervals in user activity data
+- Track session-based counters that reset on new sessions
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/behavioral-analytics
+
+---
+
+### 🧮 Advanced Aggregation Techniques
+Complex summarization patterns that require stateful calculations across rows.
+
+- Dynamic conditional grouping with custom aggregation logic
+- Stateful running totals with reset triggers
+- Calculations that depend on values from previous consecutive rows
+- Nested ordered aggregation within hierarchical groups
+
+👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/advanced-aggregation
 
 ---
 
