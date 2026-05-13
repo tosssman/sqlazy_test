@@ -1,61 +1,69 @@
-# SQLazy Repository License
-
+SQLazy Repository License
 Copyright (c) 2026 SPLWare. All rights reserved.
 
-This repository **does NOT contain the source code of SQLazy**.
+This repository does NOT contain the source code of SQLazy.
 
 This repository only contains:
+- Documentation
+- Examples
+- Public resources and links
 
-* Documentation
-* Examples
-* Public resources and links
 
----
+------------------------------------------------------------
+1. Examples License (MIT)
+------------------------------------------------------------
 
-## 1. Examples License
+All example files in the /examples directory are released under the MIT License.
 
-All example files in the `/examples` directory are released under the MIT License.
+MIT License
 
-You are free to:
-
-* Use
-* Modify
-* Distribute
-* Use commercially
-
-the example content without restriction.
-
-MIT License text:
+Copyright (c) 2026 SPLWare
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software.
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
----
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-## 2. Documentation License
 
-All documentation and text in this repository may be used and shared for
-educational and promotional purposes, provided attribution to **SQLazy** is retained.
+------------------------------------------------------------
+2. Documentation License
+------------------------------------------------------------
 
----
+All documentation and text in this repository may be used, shared, and
+referenced for educational, informational, and promotional purposes,
+provided that attribution to SQLazy is retained.
 
-## 3. SQLazy Software License
 
-The SQLazy Web App and Desktop IDE are **proprietary software**.
+------------------------------------------------------------
+3. SQLazy Software License
+------------------------------------------------------------
 
-Using SQLazy is subject to the End User License Agreement (EULA):
+The SQLazy Web App and Desktop IDE are proprietary software.
 
-[https://sqlazy.com/license](https://sqlazy.com/license)
+Use of SQLazy is governed by the End User License Agreement (EULA):
+https://sqlazy.com/license
 
----
+Nothing in this repository grants rights to the SQLazy software itself.
 
-## 4. Trademark
+
+------------------------------------------------------------
+4. Trademark
+------------------------------------------------------------
 
 "SQLazy" and "SPLWare" are trademarks of SPLWare.
 
-You may not use the trademarks for commercial products without permission.
+You may not use these trademarks for commercial products or services
+without prior written permission.
