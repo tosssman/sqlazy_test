@@ -121,7 +121,7 @@ Each row represents a single transformation.
 
 | Variable | Anchor | Statement |
 |---|---|---|
-| t1 | stock | filter CODE == 100046 |
+| t1 | stock | filter CODE = 100046 |
 | t2 |  | sort DT asc |
 | t3 |  | segment CL down as NoRisingDays |
 | t4 |  | summarize DT count as ContinuousDays group NoRisingDays |
