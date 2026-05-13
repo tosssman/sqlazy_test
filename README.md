@@ -113,40 +113,75 @@ But **you stay in control** of the logic.
 
 ## Example: Longest Rising Streak of a Stock
 
-### Step 1 — Write the logic in SQLazy
+### Step 1 — Describe the workflow
 
-```text
-t2 = stock filter where CODE equals 100046
-t3 = t2 sort by DT ascending
-t4 = t3 segment when CL decreases, name the segment NoRisingDays
-t5 = t4 aggregate count of DT as ContinuousDays, group by NoRisingDays
-Result = t5 aggregate max of ContinuousDays as max_ContinuousDays
-```
+Instead of writing one large SQL statement, the logic is expressed as a step-by-step workflow.
 
-Readable. Step-by-step. Easy to verify.
+Each row represents a single transformation.
+
+| Variable | Anchor | Statement |
+|---|---|---|
+| t1 | stock | filter CODE == 100046 |
+| t2 | t1 | sort DT asc |
+| t3 | t2 | segment CL down as NoRisingDays |
+| t4 | t3 | summary DT count as ContinuousDays group NoRisingDays |
+| result | t4 | summary ContinuousDays max as max_ContinuousDays |
+
+This workflow is easy to read and easy to review.  
+Each step does only **one simple thing**.
 
 ---
 
 ### Step 2 — The compiler generates the SQL
 
 ```sql
-WITH t3 AS (
-  SELECT CODE, DT, CL FROM stock WHERE CODE = 100046
+WITH t2 AS (
+  SELECT
+    CODE,
+    DT,
+    CL
+  FROM
+    stock
+  WHERE
+    CODE = 100046
 )
-SELECT MAX(ContinuousDays) AS max_ContinuousDays
-FROM (
-  SELECT NoRisingDays, COUNT(DT) AS ContinuousDays
-  FROM (
-    SELECT CODE, DT, CL,
-      SUM(CASE WHEN CL < col__3 THEN 1 ELSE 0 END)
-      OVER (ORDER BY DT ASC) + 1 AS NoRisingDays
-    FROM (
-      SELECT t3.*, LAG(CL) OVER (ORDER BY DT ASC) AS col__3
-      FROM t3
-    ) sub__4
+SELECT
+  MAX(ContinuousDays) AS max_ContinuousDays
+FROM
+  (
+    SELECT
+      NoRisingDays,
+      COUNT(DT) AS ContinuousDays
+    FROM
+      (
+        SELECT
+          CODE,
+          DT,
+          CL,
+          SUM(
+            CASE
+              WHEN CL < col__3 THEN 1
+              ELSE 0
+            END
+          ) OVER (
+            ORDER BY
+              DT ASC
+          ) + 1 AS NoRisingDays
+        FROM
+          (
+            SELECT
+              t2. *,
+              LAG(CL) OVER (
+                ORDER BY
+                  DT ASC
+              ) AS col__3
+            FROM
+              t2
+          ) sub__4
+      ) t3
+    GROUP BY
+      NoRisingDays
   ) t4
-  GROUP BY NoRisingDays
-) t5;
 ```
 
 ### Why this matters
