@@ -1,21 +1,61 @@
-# sqlazy 基础许可协议
+# SQLazy Repository License
+
 Copyright (c) 2026 SPLWare. All rights reserved.
 
-## 1. 授权范围
-1.1 个人与企业用户，在保持设备联网的前提下，可免费使用sqlazy IDE、sqlazy.com在线服务，包括商用场景，无功能限制；
-1.2 允许用户对本软件内置的Prompt进行修改，修改后的内容仅可用于个人/企业自用，禁止二次分发、售卖、传播；
-1.3 本协议仅适用于免费版本用户，付费商业用户的授权范围以《用户许可协议》为准。
+This repository **does NOT contain the source code of SQLazy**.
 
-## 2. 限制条款
-2.1 禁止对本软件进行逆向工程、反编译、反汇编、修改、二次封装、二次分发；
-2.2 禁止将本软件用于私域部署、离线部署、私有化集群部署，此类场景需获得官方商业授权；
-2.3 禁止去除、修改本软件中的版权标识、许可协议、商业授权提示；
-2.4 禁止利用本软件从事违法、违规、侵犯第三方知识产权的行为。
+This repository only contains:
 
-## 3. 知识产权
-3.1 本软件、在线服务、文档、示例的全部知识产权归SPLWare所有；
-3.2 用户通过本软件生成的SQL代码，知识产权归用户所有；
-3.3 本仓库内的所有示例代码，用户可自由修改、分发、商用，无额外限制。
+* Documentation
+* Examples
+* Public resources and links
 
-## 4. 免责声明
-本软件按"现状"提供，不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性、非侵权性。在任何情况下，版权所有者均不对因使用本软件产生的任何直接、间接、附带、特殊、惩罚性损失承担责任。
+---
+
+## 1. Examples License
+
+All example files in the `/examples` directory are released under the MIT License.
+
+You are free to:
+
+* Use
+* Modify
+* Distribute
+* Use commercially
+
+the example content without restriction.
+
+MIT License text:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+---
+
+## 2. Documentation License
+
+All documentation and text in this repository may be used and shared for
+educational and promotional purposes, provided attribution to **SQLazy** is retained.
+
+---
+
+## 3. SQLazy Software License
+
+The SQLazy Web App and Desktop IDE are **proprietary software**.
+
+Using SQLazy is subject to the End User License Agreement (EULA):
+
+[https://sqlazy.com/license](https://sqlazy.com/license)
+
+---
+
+## 4. Trademark
+
+"SQLazy" and "SPLWare" are trademarks of SPLWare.
+
+You may not use the trademarks for commercial products without permission.
