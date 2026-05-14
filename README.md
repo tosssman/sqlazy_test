@@ -13,7 +13,7 @@ MIT License for examples • SQLazy application is proprietary
 Writing analytical SQL is hard.  
 Reviewing AI-generated SQL is even harder.
 
-Modern AI tools can produce SQL that *runs* — but you never know whether you can trust it.
+Modern AI can produce SQL that *runs* — but you never know whether you can trust it.  
 When queries become deeply nested with window functions and subqueries, they become:
 
 - hard to review  
@@ -207,7 +207,7 @@ But the SQLazy workflow is easy to read, review, and audit.
 
 ### Download the Desktop IDE
 
-💻 Download Desktop IDE: https://sqlazy.com/download
+💻 Download Desktop IDE: <span style="color:#999;">https://sqlazy.com/download</span>（未生效）
 
 Best for daily work and large datasets.
 
