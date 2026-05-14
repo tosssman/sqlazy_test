@@ -66,7 +66,7 @@ Even the most complex analytics queries become simple building blocks:
 - join
 - rank
 - segment
-- ...
+...
 
 No more nested SQL nightmares.
 
