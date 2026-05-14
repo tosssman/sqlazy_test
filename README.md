@@ -207,7 +207,7 @@ But the SQLazy workflow is easy to read, review, and audit.
 
 ### Download the Desktop IDE
 
-💻 Download Desktop IDE: 暂未开放（即将上线：https://sqlazy.com/download）
+💻 Download Desktop IDE: https://sqlazy.com/download （暂未开放）
 
 Best for daily work and large datasets.
 
