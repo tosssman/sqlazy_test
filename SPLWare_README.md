@@ -1,5 +1,3 @@
----
-
 # SPLWare
 
 **Composable data computing tools for reliable analytics.**
@@ -62,5 +60,3 @@ We believe data tools should be:
 We welcome feedback, issues, and contributions.
 
 Explore the projects above to get started 🚀
-
----
