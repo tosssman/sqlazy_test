@@ -6,7 +6,7 @@ AI-assisted. Compiler-guaranteed. No black boxes.
 
 MIT License for examples • SQLazy application is proprietary
 
----
+
 
 ## Why SQLazy?
 
@@ -23,7 +23,7 @@ When queries become deeply nested with window functions and subqueries, they bec
 
 SQLazy turns SQL development into a **step-by-step workflow** you can actually understand and audit.
 
----
+
 
 ## The SQLazy Approach
 
@@ -41,7 +41,7 @@ That means:
 - Fully auditable logic  
 - Production-ready output  
 
----
+
 
 ## What Problems Does SQLazy Solve?
 
@@ -53,7 +53,7 @@ Then the compiler gives you the trustworthy the SQL.
 
 Result: **AI productivity + compiler reliability.**
 
----
+
 
 ### 🧩 Break Complex Queries Into Simple Steps
 
@@ -70,7 +70,7 @@ Even the most complex analytics queries become simple building blocks:
 
 No more nested SQL nightmares.
 
----
+
 
 ### 🐞 Debug Every Step
 
@@ -85,7 +85,7 @@ SQLazy provides **step-by-step execution** so you can see:
 
 Exactly like debugging code.
 
----
+
 
 ### 🔄 Write Once, Target Multiple Databases
 
@@ -94,7 +94,7 @@ Generate SQL for multiple databases.
 
 No more rewriting queries for different SQL dialects.
 
----
+
 
 ### 🤖 AI-Assisted, Human-Verified
 
@@ -105,7 +105,7 @@ LLMs help you:
 
 But **you stay in control** of the logic.
 
----
+
 
 ## Example: Find Longest Rising Streak for a Stock
 
@@ -116,7 +116,7 @@ Instead of writing one large SQL statement, the logic is expressed as a step-by-
 Each step represents a single transformation.
 
 | Variable | Anchor | Statement |
-|---|---|---|
+||||
 | t1 | stock | filter CODE = 100046 |
 | t2 |  | sort DT asc |
 | t3 |  | segment CL down as NoRisingDays |
@@ -126,7 +126,7 @@ Each step represents a single transformation.
 This workflow is easy to read and easy to review.  
 Each step does only **one simple thing**.
 
----
+
 
 ### Step 2 — The compiler generates the SQL
 
@@ -191,7 +191,7 @@ This SQL is:
 
 But the SQLazy workflow is easy to read, review, and audit.
 
----
+
 
 ## 🚀 Get Started
 
@@ -203,7 +203,7 @@ But the SQLazy workflow is easy to read, review, and audit.
 * free usage (limited compute)
 * perfect for quick experiments & sharing
 
----
+
 
 ### Download the Desktop IDE
 
@@ -218,12 +218,12 @@ Features:
 * customizable prompts
 * full performance
 
----
+
 
 ## 🖥️ Web App vs Desktop IDE
 
 | Feature                        | Web App (sqlazy.com)               | Desktop IDE                                                              |
-| ------------------------------ | ---------------------------------- | ------------------------------------------------------------------------ |
+|  | - |  |
 | Natural language → SQL         | ✅ Full SQL generation capabilities | ✅ Full SQL generation + native SPL generation                            |
 | AI assistance & planning       | ✅ Usage-limited (hosted LLM)       | ✅ Bring your own LLM key, no usage limits, customizable prompts          |
 | Step-by-step debugging         | ✅ Limited dataset size             | ✅ Powered by esProc engine, supports large datasets                      |
@@ -233,7 +233,7 @@ Features:
 | Availability | Free | Free for personal & team online use; commercial license for private/on-prem deployment |
 | Version control                | Always up-to-date in the cloud     | Free edition auto-updates; commercial edition supports version locking   |
 
----
+
 
 ## Real-World Example Library
 
@@ -242,7 +242,7 @@ These examples show how complex analytical queries can be expressed as clear, au
 
 Explore the examples by real analytics scenarios:
 
----
+
 
 ### 📈 Consecutive Trends & Streak Analysis
 Detect continuous patterns in time-series data – one of the hardest problems to solve with standard SQL.
@@ -254,7 +254,7 @@ Detect continuous patterns in time-series data – one of the hardest problems t
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/consecutive-trends
 
----
+
 
 ### ⏱ Event Sequencing & Sessionization
 Split event streams into logical sessions and generate sequence numbers based on time gaps or state changes.
@@ -264,7 +264,7 @@ Split event streams into logical sessions and generate sequence numbers based on
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/event-sequencing
 
----
+
 
 ### 🔀 Conditional Grouping Logic
 Dynamic grouping based on data values and running status – eliminates complex `SUM(CASE WHEN ...) OVER (...)` patterns.
@@ -274,7 +274,7 @@ Dynamic grouping based on data values and running status – eliminates complex 
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/conditional-grouping
 
----
+
 
 ### 🪟 Time Window Analytics
 Rolling window calculations and interval aggregations with automatic missing value backfilling.
@@ -284,7 +284,7 @@ Rolling window calculations and interval aggregations with automatic missing val
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/time-window-analytics
 
----
+
 
 ### 🧹 Data Cleaning & Normalization
 Prepare messy datasets for reporting and analytics with simple, readable steps.
@@ -294,7 +294,7 @@ Prepare messy datasets for reporting and analytics with simple, readable steps.
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/data-cleaning
 
----
+
 
 ### 🧩 Group Enhancement
 Add, modify or inject rows into grouped results without complex union operations.
@@ -304,7 +304,7 @@ Add, modify or inject rows into grouped results without complex union operations
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/group-enhancement
 
----
+
 
 ### 📊 Dynamic Reporting Transformations
 Reshape data for BI tools and reports – no more dynamic SQL or stored procedures.
@@ -314,7 +314,7 @@ Reshape data for BI tools and reports – no more dynamic SQL or stored procedur
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/dynamic-reporting
 
----
+
 
 ### 💰 Financial & Market Analysis
 Real-world trading and finance SQL problems that analysts deal with daily.
@@ -327,7 +327,7 @@ Real-world trading and finance SQL problems that analysts deal with daily.
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/financial-analysis
 
----
+
 
 ### 🧑‍💻 Behavioral & User Analytics
 Sessionization and event tracking patterns for user behavior analysis.
@@ -339,7 +339,7 @@ Sessionization and event tracking patterns for user behavior analysis.
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/behavioral-analytics
 
----
+
 
 ### 🧮 Advanced Aggregation Techniques
 Complex summarization patterns that require stateful calculations across rows.
@@ -351,7 +351,7 @@ Complex summarization patterns that require stateful calculations across rows.
 
 👉 https://github.com/tosssman/sqlazy_test/tree/main/examples/advanced-aggregation
 
----
+
 
 ## Roadmap
 
@@ -376,8 +376,6 @@ Complex summarization patterns that require stateful calculations across rows.
 
 ## ❓ FAQ
 
----
-
 ### Can SQLazy be used as a learning tool?
 
 Yes.
@@ -394,7 +392,7 @@ This makes it useful not only for development, but also for:
 Many users use SQLazy as an **interactive SQL learning environment**.
 
 
----
+
 
 ### How do I run the generated SQL in my data stack?
 
@@ -410,7 +408,7 @@ You simply:
 No integration or deployment is required.
 
 
----
+
 
 ### Does SQLazy include a query execution engine?
 
@@ -422,7 +420,7 @@ so it can simulate execution and support multiple SQL dialects.
 From the user's perspective, SQLazy only produces **portable SQL text**.
 
 
----
+
 
 ### How does SQLazy handle performance optimization?
 
@@ -437,7 +435,7 @@ The compiler performs basic logical optimizations, such as:
 Advanced performance optimization is expected to be handled by the **database query optimizer**.
 
 
----
+
 
 ### Is SQLazy designed for big data processing?
 
@@ -451,7 +449,7 @@ For debugging:
 Large-scale execution performance depends on the target database.
 
 
----
+
 
 ### What types of SQL queries are supported?
 
@@ -467,7 +465,7 @@ Recursive queries are not yet supported but are on the roadmap.
 For extremely complex scenarios, the Desktop IDE can also generate **SPL code** as an alternative.
 
 
----
+
 
 ### Does SQLazy support version control?
 
@@ -477,7 +475,7 @@ However, workflow files are plain text,
 so they can be versioned using Git or any standard VCS.
 
 
----
+
 
 ### Can the Desktop IDE work offline?
 
@@ -489,7 +487,7 @@ The free edition requires an online license check at startup.
 The commercial edition works completely offline.
 
 
----
+
 
 ### Will SQLazy support functions, macros, and control flow?
 
@@ -503,7 +501,7 @@ Planned capabilities include:
 
 These features are planned for upcoming releases.
 
----
+
 
 ## License
 
@@ -514,7 +512,7 @@ The SQLazy application (Web App and Desktop IDE) is proprietary software and is 
 All files inside the `/examples` directory are released under the MIT License.  
 See the [LICENSE](LICENSE) file for details.
 
----
+
 
 ## Community & Feedback
 
@@ -522,7 +520,7 @@ See the [LICENSE](LICENSE) file for details.
 * Forum: [https://c.esproc.com/](https://c.esproc.com/)
 * Enterprise licensing: [contact@scudata.com](mailto:contact@scudata.com)
 
----
+
 
 ## Acknowledgements
 
