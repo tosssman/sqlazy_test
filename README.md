@@ -376,6 +376,8 @@ Complex summarization patterns that require stateful calculations across rows.
 
 ## ❓ FAQ
 
+---
+
 ### Can SQLazy be used as a learning tool?
 
 Yes.
