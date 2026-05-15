@@ -467,16 +467,6 @@ For extremely complex scenarios, the Desktop IDE can also generate **SPL code** 
 
 
 
-### Does SQLazy support version control?
-
-Native version control is not built in yet.
-
-However, workflow files are plain text,  
-so they can be versioned using Git or any standard VCS.
-
-
-
-
 ### Can the Desktop IDE work offline?
 
 Yes.
