@@ -116,7 +116,7 @@ Instead of writing one large SQL statement, the logic is expressed as a step-by-
 Each step represents a single transformation.
 
 | Variable | Anchor | Statement |
-||||
+|---|---|---|
 | t1 | stock | filter CODE = 100046 |
 | t2 |  | sort DT asc |
 | t3 |  | segment CL down as NoRisingDays |
@@ -223,7 +223,7 @@ Features:
 ## 🖥️ Web App vs Desktop IDE
 
 | Feature                        | Web App (sqlazy.com)               | Desktop IDE                                                              |
-|  | - |  |
+| ------------------------------ | ---------------------------------- | ------------------------------------------------------------------------ |
 | Natural language → SQL         | ✅ Full SQL generation capabilities | ✅ Full SQL generation + native SPL generation                            |
 | AI assistance & planning       | ✅ Usage-limited (hosted LLM)       | ✅ Bring your own LLM key, no usage limits, customizable prompts          |
 | Step-by-step debugging         | ✅ Limited dataset size             | ✅ Powered by esProc engine, supports large datasets                      |
